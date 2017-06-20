@@ -1,0 +1,48 @@
+/**
+ * Place your custom styles here.
+ */
+body {
+    color: #DSD845;
+    background-color: #2F5C5A;
+         font-size: 20px;
+
+}
+
+
+.well {
+
+    color: #09D8B2;
+    background-color: #14191C;
+}
+
+
+
+.navbar-default .navbar-brand {
+    background-color: #14191C;
+    color: #09D8B2;
+    &:hover,
+        &:focus {
+        color: #B4DB0E;
+        /*      background-color: @navbar-default-brand-hover-bg;*/
+    }
+}
+
+
+
+.navbar-default .navbar-nav>li>a{
+    
+
+  
+        color:  #8FAD0B;
+        background-color:  #14191C;
+ 
+  }
+  
+  
+  .navbar-default {
+  
+        border-color:  #14191C;
+        background-color:  #14191C;
+ 
+  }
+  
