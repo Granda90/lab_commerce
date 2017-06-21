@@ -295,7 +295,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'uGTYQDMfmyyvrfv5-T79R87s3SU2UFkO2XNWvQR0GuSlnRZDkxo4Mqm7W_oATxQ9FKCQXo_xfw';
+$settings['hash_salt'] = 'hplh5nh6fQCYoulnJwhLLyJ_lJjFDgjqcCGVy9iGqBB_4EEstWkbM1JFmtAEf33gfHuKoi3_oQ';
 
 /**
  * Deployment identifier.
@@ -764,7 +764,7 @@ $settings['file_scan_ignore_directories'] = [
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'LAB_DRUPAL',
+  'database' => 'DrupalEXA',
   'username' => 'admin',
   'password' => 'admin',
   'prefix' => '',
@@ -774,4 +774,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_EDpHmGtiMO76KEn9BSUI688nNbBrIOZMTtfwkUW-x3OH_VfzC0_ChDMvRNGmsdjiC1h4T0Qoow/sync';
+$config_directories['sync'] = 'sites/default/files/config_Wgc73L069vlKFP5MrePoC7UXVGxPtyg11TAt_ieDnMtv4BVb-O6EOO6pKUlQXUmOpn-A-fiqaw/sync';
